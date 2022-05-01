@@ -3,7 +3,7 @@
 Homework for Boot Camp Week 9: SQL; Submitted by Corey Lawson-Enos
 
 ## Summary
-* employees Database: Created in SQL, includes tables for tracking employee data: name, birth date, sex, hire date, salary, department, title.
+* **employees**: Created in SQL, *employees* database tracks employee data including name, sex, birth date, hire date, department, title, and salary. Includes constraints to preserve database structure and ensure accurate data entry.
 
 ## Technologies
 SQL (pgAdmin), Matplotlib, Pandas, Jupyter Notebook
@@ -13,14 +13,10 @@ SQL (pgAdmin), Matplotlib, Pandas, Jupyter Notebook
 ![alt text](EmployeeSQL/images/ERD.png)
 
 ## Additional Analysis
-* Latitude did not show significant relationship to Humidity, Cloudiness, and Wind Speed categories. Sample humidity plot: 
+* Histogram of employee counts by salary range:
 
-![alt text](https://github.com/clawson13/python-api-challenge/blob/0bfb9434e4ecd2b0e2b83335a9e208d2540a885d/Images/Lat_v_Humidity.png)
+![alt text](EmployeeSQL/images/salary_ct_histogram.png)
 
-* Although northern latitude change shows a strong link to temperature, the tie is much weaker in the South; as such, it cannot be construed from the dataset generated that latitude is the only contributing factor to global temperature variance.
+* Per the following bar chart, an analysis of average salary by job title casts doubt on the dataset's accuracy/reality. Senior Staff and regular Staff show higher average salaries than positions that likely require much more significant experience and education and, therefore, higher compensation: Managers, Engineers, Leaders, etc.
 
-![alt text](https://github.com/clawson13/python-api-challenge/blob/0bfb9434e4ecd2b0e2b83335a9e208d2540a885d/Images/Lat_v_Temp_South.png)
-
-* Interactive Google Map displays VacationPy's plotted cities colored by humidity level:
-
-![alt text](https://github.com/clawson13/python-api-challenge/blob/ba53edee096843f90384e8a38df02067d2372aa0/Images/Heat_Map.png)
+![alt text](EmployeeSQL/images/salary_avg_by_title.png)
