@@ -1,12 +1,12 @@
 # Employee Database
 
-Homework for Boot Camp Week 9: SQL; Submitted by Corey Lawson-Enos
+Prepared by Corey Lawson-Enos
 
 ## Summary
 * **employees**: Created in SQL, *employees* database tracks employee data including name, sex, birth date, hire date, department, title, and salary. Includes constraints to preserve database structure and ensure accurate data entry.
 
 ## Technologies
-SQL (pgAdmin), Matplotlib, Pandas, Jupyter Notebook
+pgAdmin, SQLAlchemy, Pandas, NumPy, Matplotlib, Jupyter Notebook
 
 ## Entity Relationship Diagram (ERD)
 
