@@ -17,6 +17,6 @@ pgAdmin, SQLAlchemy, Pandas, NumPy, Matplotlib, Jupyter Notebook
 
 ![alt text](EmployeeSQL/images/salary_ct_histogram.png)
 
-* Per the following bar chart, an analysis of average salary by job title casts doubt on the dataset's accuracy/reality. Senior Staff and regular Staff show higher average salaries than positions that likely require much more significant experience and education and, therefore, higher compensation: Managers, Engineers, Leaders, etc.
+* Per the following bar chart, an analysis of average salary by job title casts doubt on the sample dataset's accuracy/reality. Senior Staff and regular Staff show higher average salaries than positions that likely require much more significant experience and education and, therefore, higher compensation: Managers, Engineers, Leaders, etc.
 
 ![alt text](EmployeeSQL/images/salary_avg_by_title.png)
